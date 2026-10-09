@@ -1,0 +1,8 @@
+{
+  "name": "fintech-digest-infrai",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx src/digest_service.test.ts", "run": "tsx src/digest_service.ts"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.2", "typescript": "^5.6.3"}
+}
